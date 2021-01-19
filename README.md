@@ -2,22 +2,8 @@
 
 As a customer-obsessed hacker, your task is to tell whether an arbitrary question from customer already has an answer within a given documents pool of 10000+ documents.
 
-### objectvie
-The goal of this hackathon challenge is to predict if a given customer question can be answered by any of the given 10,322 document pool.
-Note: Do not need to identify the documentm just have to predict a boolean 1 or 0 (answerability)
-
-Example 
-
-Input(query): How do I get internet on Amazon Fire?
-Output(prediction): 1
-Explanation: One of 10,332 documents contains “Connect Your Fire Tablet to Wi-Fi\n\nAccess Wi-Fi by following these steps.\n\n1.<Open the Settings menu.>\n2.<Set Airplane Mode to Off.>\n3.<Set the toggle next to Wi-Fi Mode to On.>\n4.<Select the network you want to connect to.>\n5.<A lock icon means that you need a Wi-Fi password: enter your Wi-Fi password then select Connect>” which could answer the given question
-
-### Evaluation
-We use F-score to evaluate the submission file with our ground truth values. Each group can do any number of submissions before the deadline and can view their score in ranked order in the public leaderboard. Since the groups can do multiple submissions and in order to avoid overfitting we only evaluate the submitted results on 25% of the test data and ranking is displayed on the public leader board. Once the deadline is closed the evaluation is done on the complete test set and final results are updated on the private leader board to announce the final winners.
-
 
 ### Methodology
-
 
 1. QA Pipeline 
 
