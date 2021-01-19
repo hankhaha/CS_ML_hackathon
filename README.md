@@ -1,7 +1,17 @@
 # CS_ML_hackathon
 
-As a customer-obsessed hacker, your task is to tell whether an arbitrary question from customer already has an answer within a given documents pool of 10000+ documents.
+# CS-Science Machine Learning Hackathon
 
+As a customer-obsessed hacker, our task is to tell whether an arbitrary question from customer already has an answer within a given documents pool of 10000+ documents. We do not require to idenitify the specific document that can answer the question, just have to predict a boolean (if a question can be answered) 1 or 0 (if a question can not be answered)
+
+### Example
+
+Input (query): How do I get internet on Amazon Fire?
+Output (prediction): 1
+Explanation: ```Connect Your Fire Tablet to Wi-Fi\n\nAccess Wi-Fi by following these steps.\n\n1.<Open the Settings menu.>\n2.<Set Airplane Mode to Off.>\n3.<Set the toggle next to Wi-Fi Mode to On.>\n4.<Select the network you want to connect to.>\n5.<A lock icon means that you need a Wi-Fi password: enter your Wi-Fi password then select Connect>”```
+
+### Evaluation
+F-1 score is used to evaluate the submission file with our ground truth values.
 
 ### Methodology
 
@@ -25,7 +35,7 @@ As a customer-obsessed hacker, your task is to tell whether an arbitrary questio
 
 References
 
-Closed Book Language Model for QA: https://arxiv.org/pdf/2002.08910.pdf
-Open Domain QA  https://arxiv.org/pdf/2009.00914.pdf
-Bert passage ranking https://arxiv.org/pdf/1901.04085.pdf
-Sentence-Bert: Sentence Embeddings https://www.aclweb.org/anthology/D19-1410.pdf
+- Closed Book Language Model for QA: https://arxiv.org/pdf/2002.08910.pdf
+- Open Domain QA  https://arxiv.org/pdf/2009.00914.pdf
+- Bert passage ranking https://arxiv.org/pdf/1901.04085.pdf
+- Sentence-Bert: Sentence Embeddings https://www.aclweb.org/anthology/D19-1410.pdf
